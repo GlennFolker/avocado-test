@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AVocado Test</title>
+        <style>
+            body {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body id="avocado-canvas">
+        <script type="module">
+            import init from "./avocado_game.js";
+            init().then(() => {
+                console.log("Game loaded.");
+            });
+        </script>
+    </body>
+</html>
