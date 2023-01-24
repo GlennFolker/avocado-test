@@ -1,0 +1,12 @@
+{
+  "name": "avocado_game",
+  "version": "0.1.0",
+  "files": [
+    "avocado_game_bg.wasm",
+    "avocado_game.js",
+    "avocado_game.d.ts"
+  ],
+  "module": "avocado_game.js",
+  "types": "avocado_game.d.ts",
+  "sideEffects": false
+}
