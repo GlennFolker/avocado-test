@@ -7,15 +7,28 @@
         <style>
             body {
                 background-color: black;
+                padding: 0;
+                margin: 0;
+            }
+
+            .container * {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
             }
         </style>
     </head>
-    <body id="avocado-canvas">
-        <script type="module">
-            import init from "./avocado_game.js";
-            init().then(() => {
-                console.log("Game loaded.");
-            });
-        </script>
+    <body>
+        <div class="container">
+            <span id="avocado-canvas">
+                <script type="module">
+                    import init from "./avocado_game.js";
+                    init().then(() => {
+                        console.log("Game loaded.");
+                    });
+                </script>
+            </span>
+        </div>
     </body>
 </html>
